@@ -1,0 +1,152 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+}
+
+header {
+	height: 80px;
+	width: 100%;
+	background-color: black;
+	color: white;
+	position: fixed;
+	top: 0;
+	z-index: 10;
+}
+
+.container {
+	max-width: 1170px;
+	width: 100%;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+.header-left {
+	float: left;
+	line-height: 80px;
+	font-size: 30px;
+}
+
+.header-right {
+	float: right;
+	margin-right: -25px;
+}
+
+.header-right a {
+	line-height: 80px;
+	padding: 0 25px;
+	display: block;
+	float: left;
+	text-decoration: none;
+	color: white;
+	transition: all 0.5s;
+}
+
+.header-right a:hover {
+	color: skyblue;
+}
+
+.menu-icon {
+	color: white;
+	float: right;
+	font-size: 25px;
+	padding: 21px 0;
+	display: none;
+}
+
+footer {
+	background-color: black;
+	color: white;
+	font-size: 15px;
+}
+
+h1 {
+	font-size: 30px;
+}
+
+h2 {
+	font-size: 25px;
+	margin-bottom: 30px;
+}
+
+.contents {
+	width: 100%;
+	margin: 0;
+	padding-top: 100px;
+	background-image: url(../img/sapporodome.jpg);
+	background-size: cover;
+	color: white;
+	text-shadow: 1px 0 0 black,
+							 0 1px 0 black,
+							 -1px 0 0 black,
+							 0 -1px 0 black;
+}
+
+span {
+	color: skyblue;
+}
+
+.introduce {
+	font-size: 17px;
+	font-weight: bold;
+}
+
+.clear {
+  clear: left;
+}
+
+.image-wrapper {
+	padding-left: 5%;
+	padding-right: 5%;
+	text-align: center;
+}
+
+.image {
+	float: left;
+	width: 25%;
+	padding: 0 5px;
+}
+
+.image p {
+	font-size: 20px;
+	margin-bottom: 50px;
+	margin-top: -10px;
+}
+
+.photo {
+	width: 200px;
+}
+
+.btnarea {
+	text-align: center;
+	display: block;
+}
+
+.button {
+	text-decoration: none;
+	display: inline-block;
+	background-color: skyblue;
+	color: white;
+	padding: 15px 40px;
+	opacity: 0.8;
+	border-radius: 10px;
+	box-shadow: 0px 7px black;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+
+.btn a:hover {
+	opacity: 1;
+}
+
+.btn a:active {
+	position: relative;
+	top: 7px;
+	box-shadow: none;
+}
+
+footer {
+	text-align: center;
+}
