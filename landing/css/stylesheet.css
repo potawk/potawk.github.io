@@ -1,0 +1,117 @@
+.parent {
+	position: relative;
+}
+
+.child1 {
+	position: absolute;
+	top: 30px;
+	left: 100px;
+	font-family: 'Noto Serif JP', serif;
+}
+
+.child2 {
+	position: absolute;
+	top: 160px;
+	left: 100px;
+	font-family: 'Noto Serif JP', serif;
+}
+
+.card-text {
+	color: red;
+	font-size: 60px;
+}
+
+.card-title {
+	color: white;
+	font-size: 80px;
+}
+
+span {
+	background-color: red;
+	color: white;
+	padding: 10px;
+}
+
+.price {
+	color: red;
+}
+
+.explain {
+	background-color: burlywood;
+	margin-top: 15px;
+}
+
+.btn {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.explain h1 {
+	color: white;
+}
+
+.explain p {
+	font-size: 20px;
+}
+
+.yasairei {
+	margin-top: 20px;
+}
+
+.yasairei h3 {
+	text-align: center;
+}
+
+.yasai {
+	margin-bottom: 15px;
+}
+
+.book {
+	background-color: burlywood;
+	margin-bottom: 10px;
+}
+
+.sarani {
+	margin-top: 10px;
+}
+
+.recipe {
+	text-decoration: underline;
+	background-color: white;
+	padding: 10px;
+}
+
+.voiceexample {
+	background-color: beige;
+}
+
+.voiceexample .card {
+	background-color: beige;
+}
+
+.voice {
+	text-align: center;
+	margin-top: 20px;
+}
+
+.card-img-top {
+	width: 50%;
+	margin-left: 25%;
+}
+
+.guest {
+	text-decoration: underline;
+	text-align: center;
+}
+
+.moushikomi {
+	background-color: burlywood;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding: 10px;
+}
+
+.moushikomi h2 {
+	color: red;
+	text-align: center;
+}
