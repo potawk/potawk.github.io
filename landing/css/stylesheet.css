@@ -48,6 +48,8 @@ span {
 .btn {
 	font-weight: bold;
 	font-size: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 .explain h1 {
