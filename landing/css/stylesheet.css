@@ -48,8 +48,6 @@ span {
 .btn {
 	font-weight: bold;
 	font-size: 20px;
-	margin-top: 20px;
-	margin-bottom: 20px;
 }
 
 .explain h1 {
@@ -128,4 +126,18 @@ span {
 .moushikomi h2 {
 	color: red;
 	text-align: center;
+}
+
+#btn1 {
+	margin-top: 17px;
+}
+
+#btn2 {
+	margin-top: 8px;
+	margin-bottom: 18px;
+}
+
+#btn3 {
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
