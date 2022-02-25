@@ -150,3 +150,18 @@ span {
 footer {
 	text-align: center;
 }
+
+.works {
+	background-color: antiquewhite;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	margin-bottom: 50px;
+}
+
+.works h1 {
+	margin-left: 30px;
+}
+
+.works p {
+	margin-left: 40px;
+}
